@@ -11,7 +11,7 @@ while (i < n){
     //ciascun array avrà 10 elementi random al suo interno
     for(let r=0; r < 10; r++){
         let randomNumber = Math.floor(Math.random() * 100);
-        arr.push = randomNumber;
+        arr.push(randomNumber);
     }
 
     console.log(arr);
